@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: cc-gateway-service
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http:// Cher:202211951@localhost:7070
+
